@@ -1,4 +1,4 @@
-package com.dao.interfaces;
+package com.inti.dao.interfaces;
 
 public interface IDepartementDAO {
 
