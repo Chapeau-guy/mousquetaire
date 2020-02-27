@@ -10,4 +10,5 @@ public class Pays {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long idPays;
 	private String nomPays;
+	private String langue; 
 }
