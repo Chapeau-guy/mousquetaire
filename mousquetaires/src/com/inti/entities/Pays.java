@@ -10,5 +10,34 @@ public class Pays {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long idPays;
 	private String nomPays;
-	private String langue; 
+	private String langue;
+	
+	public long getIdPays() {
+		return idPays;
+	}
+	public void setIdPays(long idPays) {
+		this.idPays = idPays;
+	}
+	public String getNomPays() {
+		return nomPays;
+	}
+	public void setNomPays(String nomPays) {
+		this.nomPays = nomPays;
+	}
+	public String getLangue() {
+		return langue;
+	}
+	public void setLangue(String langue) {
+		this.langue = langue;
+	}
+	public Pays(String nomPays, String langue) {
+		super();
+		this.nomPays = nomPays;
+		this.langue = langue;
+	}
+	@Override
+	public String toString() {
+		return "Pays [idPays=" + idPays + ", nomPays=" + nomPays + ", langue=" + langue + "]";
+	} 
+	
 }
