@@ -50,7 +50,7 @@
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
 		<beans:property name="viewClass"
 			value="org.springframework.web.servlet.view.JstlView" />
-		<beans:property name="prefix" value="/WEB-INF/jsp/" />
+		<beans:property name="prefix" value="/WEB-INF/JSP/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 </beans:beans>
