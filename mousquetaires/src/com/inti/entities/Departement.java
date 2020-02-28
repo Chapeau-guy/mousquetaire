@@ -15,6 +15,7 @@ public class Departement implements Serializable{
 	private long idDepartement;
 	private String nomDepartement ;
 	private int numDepartement;
+	
 	public long getIdDepartement() {
 		return idDepartement;
 	}
