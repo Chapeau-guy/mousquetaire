@@ -14,11 +14,11 @@
 	<form:form method="POST" action="saveDepartement"
 			modelAttribute="departement" border="1">
 			<tr>
-				<td>Nom</td>
+				<td>Nom du departement</td>
 				<td><form:input path="nomDepartement" /></td>
 			</tr>
 			<tr>
-				<td>Prenom</td>
+				<td>numéro du département</td>
 				<td><form:input path="numDepartement" /></td>
 			</tr>
 			<tr>
@@ -37,6 +37,7 @@
 			<tr>
 				<td>${v.nomDepartement}</td>
 				<td>${v.numDepartement}</td>
+				<td><a href="delete/${v.idDepartement}">Supprimer</a></td>
 			</tr>
 		</c:forEach>
 
