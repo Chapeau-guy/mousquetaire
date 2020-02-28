@@ -20,9 +20,9 @@ public class DepartementController {
 	@Autowired
 	IDepartementService departementService;
 	
-	@RequestMapping(value="/index", method=RequestMethod.GET)
-	public ModelAndView indexation(@ModelAttribute("index")Departement departement) {
-		return new ModelAndView("redirect:/index");
+	@RequestMapping(value="/accueil", method=RequestMethod.GET)
+	public ModelAndView indexation(@ModelAttribute("accueil")Departement departement) {
+		return new ModelAndView("redirect:/accueil");
 	}
 	
 	@RequestMapping(value="/saveDepartement", method=RequestMethod.POST)
